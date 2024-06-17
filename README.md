@@ -44,4 +44,8 @@ To this point, you have created a metadata with the information to download RNA-
 ## Download tool for TCGA data transfer
 
 Create a directory called `scripts` in the Project root directory
-Visit https://gdc.cancer.gov/access-data/gdc-data-transfer-tool
+Visit https://gdc.cancer.gov/access-data/gdc-data-transfer-tool. 
+
+Scroll down and go for Ubuntu and `GDC Data Transfer Tool Client`. Right click on the link and copy link. 
+Download that using `curl` program in the script directory.
+
