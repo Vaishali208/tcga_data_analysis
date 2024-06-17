@@ -28,17 +28,19 @@ that goes around processing any publicly available data.
 
 We will be first downloading the data. Visit [TCGA](https://portal.gdc.cancer.gov/) and select **Explore Our Cancer Datasets**
 
-1. In the program, select `TCGA` (you will find this when you click on `16 more`)
+1. Click on **Cohort Builder**
 
-2. Select `TCGA-LUAD` (this is Lung Adenocarcinoma)
+2. In the program, select `TCGA` (you will find this when you click on `16 more`)
 
-3. On the right hand side, you will see **585 Cases**, click on that! 
+3. Select `TCGA-LUAD` (this is Lung Adenocarcinoma)
 
-4. Here you will see `31,867 Files`, `Custom Filters`, `Biospecimen`, and `Clinical`
+4. On the right hand side, you will see **585 Cases**, click on that! 
 
-5. Click on Files menu, and click `Download Manifest` 
+5. Here you will see `31,867 Files`, `Custom Filters`, `Biospecimen`, and `Clinical`
 
-6. Click on Files menu again, and click `Download Sample Sheet`
+6. Click on Files menu, and click `Download Manifest` 
+
+7. Click on Files menu again, and click `Download Sample Sheet`
 
 Once these two files are downloaded, then do the following:
 
