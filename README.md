@@ -7,6 +7,14 @@ The next step is to clone this repository on PARAMGANGA.
 
 Github has changed the way you clone repository. First you need to generate a token for cloning and other operations. I have created a gif and shared on Discord. 
 
+Once you generated the token, then you can do the following:
+
+```
+git clone https://github.com/satyanarayan-rao/tcga_data_analysis.git 
+```
+
+Input your username and for **password** paste your **token** that you have generated.
+
 # Processing TCGA Data for Preliminary Data Analysis
 
 Goal of this workshop is to understand step by step process for processed
