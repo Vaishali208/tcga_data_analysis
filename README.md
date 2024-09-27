@@ -7,6 +7,12 @@ More importantly this workshop is targeted to groom the simple thinking process
 that goes around processing any publicly available data. 
 
 
+## Project Directory Structure Layout
+
+Each of you, first clone this repository using `git clone https://github.com/satyanarayan-rao/tcga_data_analysis.git` in appropriate workplace.
+
+Then, follow the instructions below. 
+
 ## TCGA data download
 
 We will be first downloading the data. Visit [TCGA](https://portal.gdc.cancer.gov/) and select **Explore Our Cancer Datasets**
@@ -36,7 +42,9 @@ To this point, you have created a metadata with the information to download RNA-
 
 ## Download tool for TCGA data transfer
 
-Create a directory called `scripts` in the Project root directory
+
+Create a directory called `scripts` in the Project root directory.
+
 Visit https://gdc.cancer.gov/access-data/gdc-data-transfer-tool. 
 
 Scroll down and go for Ubuntu and `GDC Data Transfer Tool Client`. Right click on the link and copy link. 
