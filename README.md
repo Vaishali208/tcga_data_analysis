@@ -1,20 +1,3 @@
-# Cloning This Repository
-
-If you are seeing this, then you already have created a Github account and I
-have added you as a collaborator in this project! 
-
-The next step is to clone this repository on PARAMGANGA. 
-
-Github has changed the way you clone repository. First you need to generate a token for cloning and other operations. I have created a gif and shared on Discord. 
-
-Once you generated the token, then you can do the following:
-
-```
-git clone https://github.com/satyanarayan-rao/tcga_data_analysis.git 
-```
-
-Input your username and for **password** paste your **token** that you have generated.
-
 # Processing TCGA Data for Preliminary Data Analysis
 
 Goal of this workshop is to understand step by step process for processed
@@ -45,7 +28,7 @@ We will be first downloading the data. Visit [TCGA](https://portal.gdc.cancer.go
 Once these two files are downloaded, then do the following:
 
 
-search for `augmented_star_gene_counts.tsv` in the sample sheet. For each of those hits, find the line the manifest file, and save it in a file called `luad_rna.txt` 
+search for `augmented_star_gene_counts.tsv` in the sample sheet and save those lines in a separate file called `luad_rna.txt`.  
 
 Make sure `luad_rna.txt` has the header same as the manifest file.
 
@@ -58,4 +41,3 @@ Visit https://gdc.cancer.gov/access-data/gdc-data-transfer-tool.
 
 Scroll down and go for Ubuntu and `GDC Data Transfer Tool Client`. Right click on the link and copy link. 
 Download that using `curl` program in the script directory.
-
