@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in rule log_transform_and_boxplot in file /home/bec51320.iitr/~workplace/tcga_data_analysis/Snakefile, line 37:
+Missing input files for rule log_transform_and_boxplot:
+    output: output/nkx2_1_expression_boxplot.png
+    affected files:
+        output/filtered_Primary_Tumor.txt
+        output/filtered_Solid_Tissue_Normal.txt

@@ -1,0 +1,3 @@
+NameError in file /home/bec51320.iitr/~workplace/tcga_data_analysis/Snakefile, line 27:
+name 'wildcards' is not defined
+  File "/home/bec51320.iitr/~workplace/tcga_data_analysis/Snakefile", line 27, in <module>
